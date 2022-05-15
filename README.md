@@ -2,7 +2,6 @@
 1) Generar un número secreto
 aleatorio con la siguiente instrucción:
 
-// Genera un número entero aleatorio de 1 a 20
 int numeroSecreto = new
 Random(DateTime.Now.Millisecond).Next(1, 21);
 
@@ -19,7 +18,7 @@ secreto, avisarle que es muy chico, y que intente de nuevo volviendo al paso 2.
 5) Si el número ingresado coincide con el número
 secreto, sacar el siguiente mensaje:
 
-"Felicitaciones, has adivinado el número secreto que era:  [numeroSecreto]"
+"Felicitaciones, has adivinado el número secreto que era:  [numeroSecreto]"   
 "Lo has logrado en [n] intentos!!"
 
 Y finalizar el programa.
